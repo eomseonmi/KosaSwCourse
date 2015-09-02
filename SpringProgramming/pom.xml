@@ -135,7 +135,16 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.36</version>
 		</dependency>
-
+		
+		<!-- Spring JDBC Support Library -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${org.springframework-version}</version>
+		
+		</dependency>
+		
+		
 	</dependencies>
 	<build>
 		<plugins>
