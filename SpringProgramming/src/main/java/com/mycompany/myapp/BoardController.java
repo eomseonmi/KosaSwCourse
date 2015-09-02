@@ -28,5 +28,5 @@ public class BoardController {
 	public String update(){
 		logger.info("update");
 		return "update";
-	}
+	} 
 }
